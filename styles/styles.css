@@ -10,7 +10,7 @@ main img {
   border:1px solid steelblue;
   padding:2px;
   box-shadow: 0 0 30px gray;
-  
+  float:right;
 }
 header{
   background-color:steelblue;
@@ -42,4 +42,9 @@ footer {
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
+}
+aside h2{
+  position:relative;
+  top:0px;
+  left:0px;
 }

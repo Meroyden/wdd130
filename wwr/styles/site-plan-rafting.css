@@ -21,6 +21,10 @@
     max-width:960px;
     padding:20px;
   }
+  main img{
+    position:static;
+    float:right;
+  }
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -53,3 +57,20 @@
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
   }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Class Selectors */
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(100,30,0,1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
+aside {
+  width: 20em;
+  text-align: center;
+}
