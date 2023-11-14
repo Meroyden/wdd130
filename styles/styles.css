@@ -46,8 +46,8 @@ footer {
 aside h2{
   position:absolute;
   top:0px;
-  left:0px;
-  /* I have no idea what I'm doing wrong here */
+  left:130px;
+ 
 }
 *{
   margin: 0;
@@ -65,4 +65,5 @@ aside h2{
 aside {
   width: 20em;
   text-align: center;
+  position:relative;
 }
