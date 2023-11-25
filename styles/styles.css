@@ -15,7 +15,7 @@ main img {
 header{
   background-color:steelblue;
 }
-header, footer {
+header,.grid, footer {
   max-width: 840px;
   margin: 0 auto;
 }
@@ -81,7 +81,7 @@ aside {
   width: 20rem;
   position: relative;
   grid-column: 1/2;
-  grid-row: 1/2;
+
 }
 .grid {
   display: grid;
