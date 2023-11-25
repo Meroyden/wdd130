@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Source+Serif+4:opsz,wght@8..60,600&display=swap');
+
+:root {
+    --primary-color: #0091AD;
+    --secondary-color: #CFCCD6;
+    --accent1-color: #d7d6ec;
+    --accent2-color: #F05D5E;
+  
+    --heading-font: 'Source Serif 4', serif;
+    --paragraph-font: 'Regular 400', serif;
+  
+    --nav-background-color:steelblue;
+    --nav-link-color: white;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: blue;
+  }  body {
+    font: var(--paragraph-font);
+    max-width:960px;
+    padding:20px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+  header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+  }
+  p {
+    padding: 25px;
+  }
+  nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+
+
+
+
+
+
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+  }
+  h1{
+    position:absolute;
+  }
+  .plzwork{
+    position:absolute;
+    left:250px;
+    top:325px;
+
+    
+  }
+  .plzwork img{
+    float:right;
+    width:30%;
+  }
+  footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+    
+  }
