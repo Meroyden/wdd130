@@ -56,7 +56,9 @@
 
 
 
-
+.hero{
+  position:relative;
+}
 
   .hero img {
     display: block;
@@ -66,21 +68,33 @@
   }
   h1{
     position:absolute;
+    top:10px;
+    left:0;
+    right:0;
+    text-align:center;
+    
   }
   .plzwork{
+    background-color: rgba(255,120,100,.7);
     position:absolute;
-    left:250px;
-    top:325px;
+    left:0;
+    right:0;
+    margin:0 auto;
+    top:125px;
+    width:60%;
 
     
   }
   .plzwork img{
     float:right;
-    width:30%;
+    width:150px;
   }
   footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
     
+  }
+  footer img{
+    width:75px;
   }
