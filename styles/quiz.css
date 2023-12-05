@@ -1,0 +1,14 @@
+body{
+    display:grid;
+    align-items:center;
+}
+form{
+    background-color:gray;
+    grid-row:1/span 5;
+    width:220px;
+    text-align:center;
+}
+.q1,.q2,.q3{
+
+    grid-row:1/span 2;
+}
