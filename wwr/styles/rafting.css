@@ -119,3 +119,11 @@
     grid-column-end:4;
     text-align:center;
   }
+  /*
+.grid-container{
+  display:grid;
+  column-gap:50px;
+  row-gap:5px;
+  grid-template-columns:2fr 1fr;
+}
+*/

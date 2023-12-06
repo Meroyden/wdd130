@@ -9,6 +9,6 @@ form{
     text-align:center;
 }
 .q1,.q2,.q3{
-
+    margin: 1px / 1px / 1px / 1px;
     grid-row:1/span 2;
 }
